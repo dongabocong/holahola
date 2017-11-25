@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Panaderia Don Wasi
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+ <ion-fab top right edge>
+    <button (click)="goToPagePanaderia()" color="danger" ></button>
+  </ion-fab>
+
+  <ion-card>
+    <ion-card-header>
+      El pan más rico del Sur de Chile
+    </ion-card-header>
+    <ion-card-content>
+      <ion-slides autoplay="4000" pager>
+
+        <ion-slide style="background-color: green">
+          <h2>Slide 1</h2><br><br><br><br><br><br>
+        </ion-slide>
+
+        <ion-slide style="background-color: blue">
+          <h2>Slide 2</h2><br><br><br><br><br><br>
+        </ion-slide>
+
+        <ion-slide style="background-color: red">
+          <h2>Slide 3</h2><br><br><br><br><br><br>
+        </ion-slide>
+
+      </ion-slides>
+    </ion-card-content>
+
+<ion-card>
+
+  <img src="img/advance-card-map-madison.png">
+  <ion-fab right top>
+    <button ion-fab>
+      <ion-icon name="pin"></ion-icon>
+    </button>
+  </ion-fab>
+
+  <ion-item>
+    <ion-icon name="football" item-start large></ion-icon>
+    <h2>Local 1</h2>
+    <p>Avda. Presidente Ibañez</p>
+  </ion-item>
+
+  <ion-item>
+    <ion-icon name="wine" item-left large ></ion-icon>
+    <h2>Institute of Fine Cocktails</h2>
+    <p>14 S. Hop Avenue, Madison, WI 53703</p>
+  </ion-item>
+
+  <ion-item>
+    <span item-left>18 min</span>
+    <span item-left>(2.6 mi)</span>
+    <button ion-button icon-left clear item-end>
+      <ion-icon name="navigate"></ion-icon>
+      Start
+    </button>
+  </ion-item>
+
+</ion-card>
+
+
+  </ion-card>
+</ion-content>
